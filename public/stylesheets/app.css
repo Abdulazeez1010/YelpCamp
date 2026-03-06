@@ -14,6 +14,20 @@
     overflow: hidden;
 }
 
+.edit-thumb {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.edit-form-card {
+    border-radius: .75rem;
+}
+
+.edit-description {
+    resize: vertical;
+}
+
 @media (min-width: 992px) {
     #cluster-map {
         height: 500px;
