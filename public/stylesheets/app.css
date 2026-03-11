@@ -28,6 +28,15 @@
     resize: vertical;
 }
 
+.show-carousel-img {
+    height: clamp(220px, 45vh, 420px);
+    object-fit: cover;
+}
+
+.show-review-text {
+    resize: vertical;
+}
+
 @media (min-width: 992px) {
     #cluster-map {
         height: 500px;
