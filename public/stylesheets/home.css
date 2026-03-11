@@ -35,3 +35,16 @@ body {
     text-shadow: none;
     font-weight: 700;
 }
+
+@media (max-width: 575.98px) {
+    .cover-container {
+        max-width: 90vw;
+    }
+}
+
+@media (max-width: 575.98px) {
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("https://images.unsplash.com/photo-1559521783-1d1599583485");
+    }
+}
